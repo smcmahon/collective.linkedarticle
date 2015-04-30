@@ -22,7 +22,6 @@
  <property name="klass">collective.linkedarticle.content.LinkedArticle</property>
  <property name="behaviors">
   <element value="plone.app.content.interfaces.INameFromTitle"/>
-  <element value="plone.app.dexterity.behaviors.metadata.IBasic"/>
   <element value="plone.app.dexterity.behaviors.metadata.IDublinCore"/>
  </property>
  <property name="schema"></property>

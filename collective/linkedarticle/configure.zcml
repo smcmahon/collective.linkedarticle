@@ -28,6 +28,12 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
-  <!-- -*- extra stuff goes here -*- -->
+  <browser:page
+      name="view"
+      for="collective.linkedarticle.content.ILinkedArticle"
+      class=".content.LinkedArticleView"
+      template="linkedarticle.pt"
+      permission="zope2.View"
+      />
 
 </configure>
