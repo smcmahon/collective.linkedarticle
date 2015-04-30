@@ -19,4 +19,3 @@ class LinkedArticle(Item):
 class LinkedArticleView(BrowserView):
     """ Default view for grid pages.
     """
-
