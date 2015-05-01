@@ -2,7 +2,7 @@
 <object name="linked_article" meta_type="Dexterity FTI" i18n:domain="plone"
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
  <property name="title" i18n:translate="">Linked Article</property>
- <property name="description" i18n:translate="">None</property>
+ <property name="description" i18n:translate="">A page with excerpt, attribution and link fields</property>
  <property name="icon_expr">string:${portal_url}/document_icon.png</property>
  <property name="factory">linked_article</property>
  <property
